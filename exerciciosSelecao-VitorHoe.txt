@@ -1,0 +1,36 @@
+1) Qual é a saída dos seguintes comandos:
+console.log(!10) // False
+console.log(!!"String") // True
+console.log(!!2.3) // True
+console.log(Boolean(null)) // False
+
+2) Qual é a saída das seguintes instruções
+console.log(10 > 2) // True
+console.log(5 >= "5") // True
+console.log(5 >== "5") // False
+console.log("apple" > "pineapple") False
+console.log("2" > "12") False
+console.log(undefined == null) True
+console.log(undefined === null) False
+console.log(null == "\n0\n") False
+console.log(null === +"\n0\n") False
+
+3) let valorA = 11
+    if (valor > 10) {
+        console.log("O valor é maior que 10")
+    } else {
+        console.log("O valor é menor que 10")
+    }
+   
+   let valorB = 9
+    if (valor > 10) {
+        console.log("O valor é maior que 10")
+    } else {
+        console.log("O valor é menor que 10")
+    }
+
+4) let numero = Number(prompt("Digite um número"))
+    if (numero % 2 === 0) {
+        console.log(numero / 2)
+    }
+''

@@ -31,6 +31,85 @@ console.log(null === +"\n0\n") False
 
 4) let numero = Number(prompt("Digite um número"))
     if (numero % 2 === 0) {
-        console.log(numero / 2)
+        console.log(numero / 2, "o número é par")
+    } else {
+        console.log("o numero é ímpar")
     }
-''
+    console.log("Programa finalizado")
+
+5) let numero = Number(prompt("Digite um número"))
+    numero % 2 === 0 ? console.log("O número é par") : console.log("O número é ímpar")
+
+6) let numero = Number(prompt("Digite um número"))
+    numero > 20 && numero < 90 ? console.log("O número está na faixa entre 20 e 90") : console.log("O número está fora da faixa")
+
+7) Boolean(A > 10 && B <= 20) // False
+   Boolean(A > 10 || B <= 20) // True
+   Boolean((A === 10 || B > 20) && B === 20) // True
+   console.log(null || 2 || undefined) // 2
+   Boolean(0 && 1) // False
+
+8)  let valor1 = Number(prompt("Digite o valor 1"))
+    let valor2 = Number(prompt("Digite o valor 2"))
+    let valor3 = Number(prompt("Digite o valor 3"))
+
+    if (valor1 > valor2 && valor3 < valor1){
+        console.log("O maior valor é o", valor1)
+    } else if (valor2 > valor1 && valor3 < valor2) {
+        console.log("O maior valor é o", valor2)
+    } else if (valor3 > valor1 && valor2 < valor3) {
+        console.log("O maior valor é o", valor3)
+    }
+
+9) let a = 2
+   let b = 5
+   a + b < 4 ? console.log("abaixo") : console.log("acima") 
+
+10) let lado1 = Number(prompt("Digite o primeiro valor"))
+    let lado2 = Number(prompt("Digite o segundo valor"))
+    let lado3 = Number(prompt("Digite o terceiro valor"))
+
+    if (lado1 === lado2 && lado1 === lado3 && lado3 === lado2){
+        console.log("Triângulo Equilátero")
+
+    } else if (lado1 === lado2 || lado1 === lado3 || lado3 === lado2){
+        console.log("Triângulo Isósceles")
+    } else {
+        console.log("Triângulo	Escaleno")}
+
+11) let numero = Number(prompt("Digite um número"))
+    numero >= 0 ? console.log(Math.sqrt (numero)) : console.log("Número inválido")
+
+12) let numero = Number(prompt("Digite um número"))
+    numero % 5 === 0 ? console.log("Número é divisível por 5") : console.log("Número não é divisível por 5")
+
+13) let numero = Number(prompt("Digite um número"))
+    numero >= 0 ? console.log(Math.sqrt (numero)) : console.log(numero**2)
+
+14) let salario = Number(prompt("Digite o seu salário"))
+    let prestacao = Number(prompt("Digite a prestação"))
+    let porcentagem = salario / 5
+
+    prestacao > porcentagem ? console.log("Empréstimo não concedido") : console.log("Empréstimo concedido")
+
+15) let time1 = Number(prompt("Digite os gols do primeiro time"))
+    let time2 = Number(prompt("Digite os gols do segundo time"))
+    
+    if (time1 === time2){
+        console.log("Empate")
+    } else if (time1 > time2){
+        console.log("Primeiro time ganhou")
+    } else{
+        console.log("Segundo time ganhou")
+    }
+
+16) let idade = Number(prompt("Digite a sua idade"))
+        if (idade >= 18 && idade < 60){
+            console.log("Voto obrigatório")
+        } else if (idade >= 16 && idade <= 17 || idade > 60){
+            console.log("Voto opcional")
+        } else{
+            console.log("Não precisa votar")
+        }
+
+17)

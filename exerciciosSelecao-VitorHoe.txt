@@ -112,4 +112,128 @@ console.log(null === +"\n0\n") False
             console.log("Não precisa votar")
         }
 
-17)
+17) let numero1 = Number(prompt("Digite o primeiro numero"))
+    let numero2 = Number(prompt("Digite o segundo numero"))
+    let numero3 = Number(prompt("Digite o terceiro numero"))
+    
+     if (numero1 > numero2 && numero2 > numero3){
+         console.log(numero1, numero2, numero3)
+     
+     } else if (numero1 > numero3 && numero3 > numero2){
+         console.log(numero1, numero3, numero2)
+     
+     } else if(numero3 > numero1 && numero1 > numero2) {
+         console.log(numero3, numero1, numero2)
+     
+     } else if (numero2 > numero3 && numero3 > numero1){
+         console.log(numero2, numero3, numero1)
+     
+     } else if (numero2 > numero1 && numero1 > numero3){
+         console.log(numero2, numero1, numero3)
+     
+     } else {
+         console.log(numero3, numero2, numero1)
+     }
+
+18) let valor = Number(prompt("Digite um número de 1 a 7"))
+
+    switch (valor){
+        case 1:
+        console.log("Segunda-Feira")
+        break;
+        case 2:
+        console.log("Terça-Feira")
+        break;
+        case 3:
+        console.log("Quarta-Feira")
+        break;
+        case 4:
+        console.log("Quinta-Feira")
+        break;
+        case 5:
+        console.log("Sexta-Feira")
+        break;
+        case 6:
+        console.log("Sábado")
+        break;
+        case 7:
+        console.log("Domingo")
+        break;
+    }
+
+19) let idade = Number(prompt("Digite um número de 1 a 12"))
+    
+    idade < 18 || idade > 67 ? console.log("Não") : console.log("Sim")
+
+20) let valor = Number(prompt("Digite um número de 1 a 12"))
+
+switch (valor){
+    case 1:
+    console.log("Janeiro")
+    break;
+
+    case 2:
+    console.log("Fevereiro")
+    break;
+
+    case 3:
+    console.log("Março")
+    break;
+
+    case 4:
+    console.log("Abril")
+    break;
+
+    case 5:
+    console.log("Maio")
+    break;
+
+    case 6:
+
+    console.log("Junho")
+    break;
+
+    case 7:
+    console.log("Julho")
+    break;
+
+    case 8:
+    console.log("Agosto")
+    break;
+
+    case 9:
+    console.log("Setembro")
+    break;
+
+    case 10:
+    console.log("Outubro")
+    break;
+
+    case 11:
+    console.log("Novembro")
+    break;
+
+    case 12:
+    console.log("Dezembro")
+    break;
+    
+}
+
+21) let turno = (prompt("Digite seu turno: M para matutino, V para Vespertino ou N para Noturno"))
+    
+    switch (turno){
+        case "M", "m":
+        console.log("Bom dia")
+    break;
+
+        case "V", "v":
+        console.log("Boa Tarde")
+    break;
+
+        case "N", "n":
+        console.log("Boa Noite")
+    break;
+        
+        default:
+        console.log("Valor Inválido")
+}

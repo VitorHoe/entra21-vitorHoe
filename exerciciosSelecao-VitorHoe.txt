@@ -235,5 +235,5 @@ switch (valor){
     break;
         
         default:
-        console.log("Valor Inválido")
+        console.log("Valor inválido")
 }

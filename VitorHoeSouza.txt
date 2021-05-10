@@ -1,0 +1,76 @@
+1) B
+
+2) B
+
+3) let raio = prompt("digite o raio da circunferencia")
+        let pi = 3.14159
+        let area = pi * raio** 2
+        console.log(`A área da circunferência de raio ${raio} é ${area}`)
+
+5)  let nomeAluno = prompt("Digite seu nome")
+        let nota1 = Number(prompt("Digite a primeira nota"))
+        let nota2 = Number(prompt("Digite a segunda nota"))
+        let media = (nota1 + nota2)/2
+
+        media >= 6 ? console.log(`${nomeAluno} Aprovado`) : console.log(`${nomeAluno} Reprovado`)
+
+6) let valor1 = Number(prompt("Digite o primeiro número"))
+        let valor2 = Number(prompt("Digite o segundo número"))
+
+        if (valor1 > valor2) {
+            console.log(`O número ${valor1} é o maior valor`)
+        } else if (valor1 < valor2) {
+            console.log(`O número ${valor2} é o maior valor`)
+        } else {
+            console.log(`Os valores são iguais`)
+        }
+
+7) let valor1 = Number(prompt("Digite o primeiro número"))
+        let valor2 = Number(prompt("Digite o segundo número"))
+        let valor3 = Number(prompt("Digite o terceiro número"))
+
+        if (valor1 > valor2 && valor1 > valor3) {
+            console.log(`O número ${valor1} é o maior valor`)
+        } 
+        else if (valor2 > valor1 && valor2 > valor3) {
+            console.log(`O número ${valor2} é o maior valor`)
+        }
+         else if (valor3 > valor2 && valor3 > valor1) {
+            console.log(`O número ${valor3} é o maior valor`)
+        }
+
+8) let valor = Number(prompt("Digite um número"))
+        valor >= 20 && valor <= 50 ? console.log(`O número ${valor} está no intervalo entre 20 e 50`) : console.log(`O número ${valor} não está no intervalo entre 20 e 50`)
+
+9) let altura = Number(prompt("Digite a sua altura"))
+        let sexo = (prompt("Digite o seu sexo: F para feminino e M para masculino"))
+        let pesoHomen = Number(72.7 * altura) - 58
+        let pesoMulher = Number(62.1 * altura) - 44.7
+
+        switch(sexo){
+            case "F", "f":
+            console.log(`Peso ideal ${pesoMulher}`)
+            break;
+            
+            case "M", "m":
+            console.log(`Peso ideal ${pesoHomen}`);
+            break;
+
+        }
+
+10) let peso = Number(prompt("Digite o seu peso"))
+        let altura = Number(prompt("Digite a sua altura"))
+        let imc = peso / (altura * altura)
+
+        if (imc < 18.5) {
+            console.log("Abaixo do peso")
+        }
+        else if (imc >= 18.5 && imc <= 24.9) {
+            console.log("Normal")
+        }
+        else if (imc >= 25 && imc <= 29.9) { 
+            console.log("Acima do peso")
+        }
+        else {
+            console.log("Obeso")
+        }

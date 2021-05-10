@@ -34,7 +34,12 @@ for (let i = 0; i < 10; ++i) {
         }
 
 
-3)
+3)for (let i = 10; i > -1; i--) {
+            console.log(`Estou aparecendo ${i} vezes na tela`)   
+        }
+        console.log("FIM")
+
+4)
 
 
 9) let quantidadeDeNegativos = 0

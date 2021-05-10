@@ -1,5 +1,35 @@
-et i = 0
-    while (i < 10) {
-        console.log(`estou aparecendo ${i++} vezes`)
-    
-    }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let peso = Number(prompt("Digite o seu peso"))
+        let altura = Number(prompt("Digite a sua altura"))
+        let imc = peso / (altura * altura)
+
+        if (imc < 18.5) {
+            console.log("Abaixo do peso")
+        }
+        else if (imc >= 18.5 && imc <= 24.9) {
+            console.log("Normal")
+        }
+        else if (imc >= 25 && imc <= 29.9) { 
+            console.log("Acima do peso")
+        }
+        else {
+            console.log("Obeso")
+        }
+        
+        let numero3 = Number(prompt("Digite o terceiro número"))
+    let numero4 = Number(prompt("Digite o quarto número"))
+    let numero5 = Number(prompt("Digite o quinto número"))
+    let numero6 = Number(prompt("Digite o sexto número"))
+        
+        
+    </script>
+</body>
+</html>

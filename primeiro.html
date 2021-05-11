@@ -7,14 +7,22 @@
 </head>
 <body>
     <script>
-    let numero1 = Number(prompt("Digite o primeiro número"))
-    let numero2 = Number(prompt("Digite o segundo número"))
-    let subtracao = numero1 - numero2
+    numerosMedia = 0
     
-    for (let i = subtracao; subtracao; i++) {
-            console.log(`${subtracao}`)  
-            break 
+    for (let i = 0; i < 10; i++) {
+        let valor = +prompt("Digite um valor")
+        let media = valor / numerosMedia
+    
+        if (valor > 0){
+            numerosMedia++
         }
+        else{
+            break
+        }
+        
+    }
+    console.log(`A média artitimética dos valores é de:${media}`)
+        
     </script>
 </body>
 </html>

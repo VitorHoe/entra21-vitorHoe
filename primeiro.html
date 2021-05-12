@@ -7,22 +7,21 @@
 </head>
 <body>
     <script>
-    numerosMedia = 0
-    
-    for (let i = 0; i < 10; i++) {
-        let valor = +prompt("Digite um valor")
-        let media = valor / numerosMedia
-    
-        if (valor > 0){
-            numerosMedia++
+        let maior = 0
+        let vetor = []
+        let numeros = []
+        maior = numeros
+
+        for (let i = 0; i < 5; i++) {
+            numeros[i] = +prompt(`Digite o ${i + 1}º valor`)
         }
-        else{
-            break
-        }
-        
+        for (let i = 0, tamanhoVetor = vetor.length; i < tamanhoVetor; i++)
+        maior++
+        if (numeros > maior) {
+        maior = numeros;
     }
-    console.log(`A média artitimética dos valores é de:${media}`)
-        
+
+console.log(`O maior valor digitado foi ${numeros.indexOf(maior)}`);
     </script>
 </body>
 </html>

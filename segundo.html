@@ -7,29 +7,18 @@
 </head>
 <body>
     <script>
-        let peso = Number(prompt("Digite o seu peso"))
-        let altura = Number(prompt("Digite a sua altura"))
-        let imc = peso / (altura * altura)
+      let matriz = []
+      quantidadeMaior10 = 0
+      for (let i = 0; i < 3; i++) {
+          matriz[i] = []
+          for (let j = 0; j > 3; j++) {
+              matriz[i][j] = +prompt("Digite um número")
 
-        if (imc < 18.5) {
-            console.log("Abaixo do peso")
-        }
-        else if (imc >= 18.5 && imc <= 24.9) {
-            console.log("Normal")
-        }
-        else if (imc >= 25 && imc <= 29.9) { 
-            console.log("Acima do peso")
-        }
-        else {
-            console.log("Obeso")
-        }
-        
-        let numero3 = Number(prompt("Digite o terceiro número"))
-    let numero4 = Number(prompt("Digite o quarto número"))
-    let numero5 = Number(prompt("Digite o quinto número"))
-    let numero6 = Number(prompt("Digite o sexto número"))
-        
-        
+              if (matriz[i][j] > 10)
+              quantidadeMaior10++
+          }
+      }
+      console.log(`A quantidade maior que 10 é de ${quantidadeMaior10}`)
     </script>
 </body>
 </html>

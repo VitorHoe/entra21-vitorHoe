@@ -12,4 +12,117 @@
         }
         console.log(`O vetor possui ${pares} valor(res) pares`)
 
-2)
+2) let vetor = []
+        let lengit = 0
+
+        for (let i = 0; i < 5; i++) {
+            vetor[i] = +prompt(`Digite o ${i + 1}º valor`)
+        }
+        for (let i = 0, tamanhoVetor = vetor.length; i < tamanhoVetor; i++)
+         {
+            if (vetor[0] > vetor[1] && vetor[0] > vetor[2] && vetor[0] > vetor[3] && vetor[0] > vetor[4]) {
+                console.log(`O maior vetor é o ${vetor[0]} na posição ${lengit + 1}`) 
+        }
+        else if (vetor[1] > vetor[0] && vetor[1] > vetor[2] && vetor[1] > vetor[3] && vetor[1] > vetor[4]) {
+            console.log(`O maior vetor é o ${vetor[1]} na posição ${lengit}`)
+           
+    }
+    else if (vetor[2] > vetor[0] && vetor[2] > vetor[1] && vetor[2] > vetor[3] && vetor[2] > vetor[4]) {
+        console.log(`O maior vetor é o ${vetor[2]} na posição ${lengit + 1}`)
+        
+    }
+    else if (vetor[3] > vetor[0] && vetor[3] > vetor[2] && vetor[3] > vetor[1] && vetor[3] > vetor[4]) {
+        console.log(`O maior vetor é o ${vetor[3]} na posição ${lengit + 1}`)
+        
+    }
+    else if (vetor[4] > vetor[0] && vetor[4] > vetor[2] && vetor[4] > vetor[3] && vetor[4] > vetor[1]) 
+    console.log(`O maior vetor é o ${vetor[4]} na posição ${lengit + 1}`)
+    
+    }
+
+3) let vetor = []
+
+        for (let i = 0; i < 5; i++) {
+            vetor[i] = +prompt(`Digite o ${i + 1}º valor`)
+        }
+        for (let i = 0, tamanhoVetor = vetor.length; i < tamanhoVetor; i++)
+         {
+            if (vetor[0] > vetor[1] && vetor[0] > vetor[2] && vetor[0] > vetor[3] && vetor[0] > vetor[4]){
+        console.log(`O maior valor é o ${vetor[0]}`)
+    }   
+    else if (vetor[1] > vetor[0] && vetor[1] > vetor[2] && vetor[1] > vetor[3] && vetor[1] > vetor[4]) {
+        console.log(`O maior valor é o ${vetor[1]}`)
+    } 
+    else if (vetor[2] > vetor[0] && vetor[2] > vetor[1] && vetor[2] > vetor[3] && vetor[2] > vetor[4]) {
+        console.log(`O maior valor é o ${vetor[2]}`)
+    }
+    else if (vetor[3] > vetor[0] && vetor[3] > vetor[2] && vetor[3] > vetor[1] && vetor[3] > vetor[4]) {
+        console.log(`O maior valor é o ${vetor[3]}`)
+        
+    }
+    else if (vetor[4] > vetor[0] && vetor[4] > vetor[2] && vetor[4] > vetor[3] && vetor[4] > vetor[1]) 
+    console.log(`O maior valor é o ${vetor[4]}`)
+    }
+
+    if (vetor[0] < vetor[1] && vetor[0] < vetor[2] && vetor[0] < vetor[3] && vetor[0] < vetor[4]){
+        console.log(`O menor valor é o ${vetor[0]}`)
+    }   
+    else if (vetor[1] < vetor[0] && vetor[1] < vetor[2] && vetor[1] < vetor[3] && vetor[1] < vetor[4]) {
+        console.log(`O menor valor é o ${vetor[1]}`)
+    } 
+    else if (vetor[2] < vetor[0] && vetor[2] < vetor[1] && vetor[2] < vetor[3] && vetor[2] < vetor[4]) {
+        console.log(`O menor valor é o ${vetor[2]}`)
+    }
+    else if (vetor[3] < vetor[0] && vetor[3] < vetor[2] && vetor[3] < vetor[1] && vetor[3] < vetor[4]) {
+        console.log(`O menor valor é o ${vetor[3]}`)
+        
+    }
+    else if (vetor[4] < vetor[0] && vetor[4] < vetor[2] && vetor[4] < vetor[3] && vetor[4] < vetor[1]) {
+    console.log(`O menor valor é o ${vetor[4]}`)
+
+    }
+
+4)  let vetor = []
+
+        for (let i = 0; i < 5; i++) {
+            vetor[i] = +prompt(`Digite o ${i + 1}º valor`)
+        }
+        for (let i = 0, tamanhoVetor = vetor.length; i < tamanhoVetor; i++) {
+            console.log(vetor[i])
+        }
+        for (let j = vetor.length - 1; j >= 0; j--) {
+            console.log(vetor[j])
+    }
+
+5) let vetor = ["Altair","Ezio","Connor","Edward","Arno"]
+        let nome = prompt("Digite seu nome")
+        
+        vetor.includes(nome) ? console.log("ACHEI") : console.log("NÃO ACHEI")
+
+
+6) let vetorA = [1, 0, 5, -2, -5, 7]
+        let soma = vetorA[0] + vetorA[1] + vetorA[5]
+        vetorA[4] = 100
+        for (let i = 0, tamanhoVetor = vetorA.length; i < tamanhoVetor; i++) {
+            console.log(vetorA[i])
+        }
+        console.log(`Soma = ${soma}`)
+
+7) let vetor = [12,24,48,64,14]
+       let raiz = Math.sqrt
+       let vetor1 = Math.sqrt(vetor.slice(0,1))
+       let vetor2 = Math.sqrt(vetor.slice(1,2))
+       let vetor3 = Math.sqrt(vetor.slice(2,3))
+       let vetor4 = Math.sqrt(vetor.slice(3,4))
+       let vetor5 = Math.sqrt(vetor.slice(4,5))
+       for (let i = 0, tamanhoVetor = vetor.length; i < tamanhoVetor; i++)
+        
+       
+        console.log(`${vetor1.toFixed(2)}`)
+        console.log(`${vetor2.toFixed(2)}`)
+        console.log(`${vetor3.toFixed(2)}`)
+        console.log(`${vetor4.toFixed(2)}`)
+        console.log(`${vetor5.toFixed(2)}`)
+
+8) 
+

@@ -124,5 +124,81 @@
         console.log(`${vetor4.toFixed(2)}`)
         console.log(`${vetor5.toFixed(2)}`)
 
-8) 
+8) let vetor = []
+       
+       for (let i = 0; i < 6; i++) {
+            vetor[i] = +prompt(`Digite o ${i + 1}º valor par`)
+       }    
+        for (let i = 0, tamanhoVetor = vetor.length; i < tamanhoVetor; i++) {
+            
+            if(vetor[i] % 2 === 1 ) {
+                !vetor
+                alert("Digite um valor par")
+                break
+
+            }
+            for (let i = vetor.length - 1; i >= 0; i--) {
+                console.log(vetor[i])
+            }
+            
+        }
+
+9)  let vetor = [2,8,7,23,14,12,9,5]
+       let vetorX = Number(prompt("Digite o valor X"))
+       let vetorY = Number(prompt("Digite o valor y"))
+       let soma = vetorX + vetorY
+
+      if (vetorX == vetor[2] && vetorY == vetor[3]) {
+        console.log(soma)
+      } else {console.log("Digite os valores corretos")
+      }
+
+10) let vetor = []
+      let negativo = 0
+      
+for (let i = 0; i < 10; i++) {
+    vetor[i] = +prompt(`Digite o ${i + 1}º valor`)
+    
+    let soma = vetor[i] + vetor[i]
+
+if (vetor[i] >= 0) {
+    
+    console.log(soma)
+
+ } else 
+  ++negativo
+
+}
+console.log(negativo)
+
+
+11) let vetor = []
+      let maior
+      let menor
+      let posicao = 0
+      let posicao2 = 0
+
+for (let i = 0; i < 5; i++) {
+    vetor[i] = +prompt(`Digite o ${i + 1}º valor`)
+
+    if (i === 0) {
+        maior = vetor[i] 
+    } else if (vetor[i] > maior) {
+        maior = vetor[i] 
+        posicao = i
+    }
+
+}
+for (let i = 0; i < 5; i++) {
+if (i === 0) {
+        menor = vetor[i] 
+    } else if (vetor[i] < menor) {
+        menor = vetor[i] 
+        posicao2 = i
+    }
+}
+for (let i = 0; i < 5; i++) {
+    console.log(vetor[i])
+}
+console.log(`Maior: ${maior} Posição: ${posicao + 1} Menor: ${menor} Posição: ${posicao2 + 1}`)
 

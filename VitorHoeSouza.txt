@@ -74,3 +74,20 @@
         else {
             console.log("Obeso")
         }
+
+11)   let vetor = []
+      let negativo = 0
+      
+for (let i = 0; i < 10; i++) {
+    vetor[i] = +prompt(`Digite o ${i + 1}º valor`)
+    
+    let soma = vetor[i] + vetor[i]
+
+if (vetor[i] >= 0) {
+    console.log(soma)
+
+ } else 
+  ++negativo
+
+}
+console.log(negativo)

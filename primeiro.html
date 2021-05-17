@@ -7,24 +7,24 @@
 </head>
 <body>
     <script>
-       let vetor = []
-       
-       for (let i = 0; i < 6; i++) {
-            vetor[i] = +prompt(`Digite o ${i + 1}º valor par`)
-       }    
-        for (let k = 0, tamanhoVetor = vetor.length; k < tamanhoVetor; k++) {
-        
-            for (let i = vetor.length - 1; i >= 0; i--) {
-                console.log(vetor[i])
-            }
-            if(vetor[k] % 2 === 1 ) {
-                !vetor
-                alert("Digite um valor par")
-                break
+      let vetor = []  
+      let vezes = 0
+      let vezes2 = 0
+      let vezes3 = 0
+      let vezes4 = 0
+      let vezes5 = 0
+      let vezes6 = 0
+      min = Math.ceil(1);
+      max = Math.floor(6); 
 
-            }
-        }
-       
+for (let i = 0; i < 10; i++) {
+    vetor[i] = Math.random() * (max - min) + min;
+
+    
+    console.log(vetor[i].toFixed(0))
+    
+}
+includes
     </script>
 </body>
 </html>

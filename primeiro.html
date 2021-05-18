@@ -1,30 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <script>
-      let vetor = []  
-      let vezes = 0
-      let vezes2 = 0
-      let vezes3 = 0
-      let vezes4 = 0
-      let vezes5 = 0
-      let vezes6 = 0
-      min = Math.ceil(1);
-      max = Math.floor(6); 
+        let matriz = []
+        let mostrandoMatriz = ""
+        for (let i = 0; i < 3; i++) {
+            matriz[i] = []
+            for (let j = 0; j < 3; j++) {
+                matriz[i][j] = +prompt("Digite um número")
 
-for (let i = 0; i < 10; i++) {
-    vetor[i] = Math.random() * (max - min) + min;
-
-    
-    console.log(vetor[i].toFixed(0))
-    
-}
-includes
+                mostrandoMatriz += matriz[i][j] + "\t"
+            }
+            mostrandoMatriz += "\n"
+        }
+        console.log(mostrandoMatriz)
     </script>
 </body>
+
 </html>

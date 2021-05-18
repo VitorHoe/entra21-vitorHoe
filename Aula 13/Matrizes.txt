@@ -1,0 +1,51 @@
+2) let matriz = []
+        let mostrandoMatriz = ""
+        for (let i = 0; i < 5; i++) {
+            matriz[i] = []
+            for (let j = 0; j < 5; j++) {
+                matriz[j] = []
+                if (matriz[i] == matriz[j]) {
+                    matriz[i][j] = 1
+                } else {
+                    matriz[i][j] = 0
+                }
+                mostrandoMatriz += matriz[i][j] + "\t"
+            }
+            mostrandoMatriz += "\n"
+        }
+        console.log(mostrandoMatriz)
+
+4) let matriz = [
+            [1, 2, 3],
+            [4, 5, 6],
+            [7, 8, 9]
+        ]
+        let matriz2 = [
+            [0, 3, 2],
+            [5, 4, 5],
+            [6, 9, 8]
+        ]
+
+        let matriz3 = []
+        let mostrandoMatriz = ""
+        for (let i = 0; i < 3; i++) {
+            matriz3[i] = []
+
+            for (let j = 0; j < 3; j++) {
+                matriz3[j] = []
+
+                if (matriz2[i][j] > matriz[i][j]) {
+                    matriz3[i][j] = matriz2[i][j]
+                } else {
+                    matriz3[i][j] = matriz[i][j]
+
+                }
+                mostrandoMatriz += matriz3[i][j] + "\t"
+            }
+            mostrandoMatriz += "\n"
+        }
+        console.log(mostrandoMatriz)
+
+
+
+

@@ -9,18 +9,24 @@
 
 <body>
     <script>
-        let matriz = []
-        let mostrandoMatriz = ""
-        for (let i = 0; i < 3; i++) {
-            matriz[i] = []
-            for (let j = 0; j < 3; j++) {
-                matriz[i][j] = +prompt("Digite um número")
+        let vetor = []
 
-                mostrandoMatriz += matriz[i][j] + "\t"
+        function firstLast(vetor) {
+            for (let i = 0; i < 5; i++) {
+                vetor[i] = +prompt("Digite um número")
+
+                let primeiroElemento = vetor.slice(1)
+                let segundoElemento = vetor.slice(4)
+                let array = vetor.concat(primeiroElemento, segundoElemento)
+
+                console.log(`Novo array: ${array}`)
             }
-            mostrandoMatriz += "\n"
         }
-        console.log(mostrandoMatriz)
+        firstLast(vetor)
+
+
+
+
     </script>
 </body>
 

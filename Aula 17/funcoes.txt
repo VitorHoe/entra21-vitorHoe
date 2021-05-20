@@ -1,0 +1,89 @@
+1) let ehPositivo = numero => numero > 0
+        let numero = +prompt("Digite um número")
+        console.log(`é positivo ${numero}`)
+
+2) let minimo = (a, b) => a < b ? a : b
+
+        let a = +prompt("Digite o valor A")
+        let b = +prompt("Digite o valor B")
+
+        console.log(``)
+
+3) let numero1 = +prompt("Digite o valor")
+        let numero2 = +prompt("Digite a potencia")
+
+        function potenciaSegundo(numero1, numero2) {
+            
+            let resultado = numero1 ** numero2
+
+            alert(resultado)
+        }
+        potenciaSegundo(numero1, numero2)
+        
+
+4)  let nota1 = +prompt("Digite a primeira nota")
+        let nota2 = +prompt("Digite a segunda nota")
+        let nota3 = +prompt("Digite a terceira nota")
+
+        function media(nota1, nota2, nota3) {
+            
+            let resultado = (nota1 + nota2 + nota3) / 3
+            
+            alert(resultado)
+        }
+        media(nota1, nota2, nota3)
+        
+
+5) let nota1 = +prompt("Digite a primeira nota")
+        let nota2 = +prompt("Digite a segunda nota")
+        let nota3 = +prompt("Digite a terceira nota")
+
+        function media(nota1, nota2, nota3) {
+
+            let resultado = (nota1 + nota2 + nota3) / 3
+            
+
+            if (resultado >= 0 && resultado <= 4.9) {
+                alert("D")
+
+            } else if (resultado >= 5 && resultado <= 6.9) {
+                alert("C")
+
+            } else if (resultado >= 7 && resultado <= 8.9) {
+                alert("B")
+
+            } else if (resultado >= 9 && resultado <= 10) {
+                alert("A")
+            } else {
+                alert("erro 404")
+            }
+
+        }
+        media(nota1, nota2, nota3)
+
+6) let sexo = prompt("Digite o seu sexo").toUpperCase()
+        let altura = +prompt("Digite a a sua altura")
+
+        function pesoIdeal(sexo, altura) {
+
+            let pesoFem = 62.1 * altura - 44.7
+            let pesoMasc = 72.7 * altura - 58
+
+            switch (sexo) {
+                case "M":
+                    console.log(`Peso ideal: ${pesoMasc.toFixed(2)}`)
+                    break;
+
+                case "F":
+                    console.log(`Peso ideal: ${pesoFem.toFixed(2)}`)
+                    break;
+
+                default:
+                    console.log("Sexo inválido.");
+                    break;
+            }
+        }
+        pesoIdeal(sexo, altura)
+
+
+7) 

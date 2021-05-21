@@ -86,4 +86,18 @@
         pesoIdeal(sexo, altura)
 
 
-7) 
+7) let vetor = []
+
+        function firstLast(vetor) {
+            for (let i = 0; i < 5; i++) {
+                vetor[i] = +prompt("Digite um número")
+            }
+            let vet1 = vetor.slice(0, 1)
+            let vet2 = vetor.slice(4, 5)
+            let novoArray = [vet1, vet2]
+
+            console.log(`Novo array: ${novoArray}`)
+        }
+        firstLast(vetor)
+
+8) 

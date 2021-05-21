@@ -9,22 +9,23 @@
 
 <body>
     <script>
-        let vetor = []
+        let numero = +prompt("digite um número")
 
-        function firstLast(vetor) {
-            for (let i = 0; i < 5; i++) {
-                vetor[i] = +prompt("Digite um número")
+        let hash = "#"
 
-                let primeiroElemento = vetor.slice(1)
-                let segundoElemento = vetor.slice(4)
-                let array = vetor.concat(primeiroElemento, segundoElemento)
 
-                console.log(`Novo array: ${array}`)
+        function jogoVeia(numero) {
+
+
+            for (let i = 0; i < numero; i++) {
+                let tag = hash
+                console.log(tag);
             }
+
+
+
         }
-        firstLast(vetor)
-
-
+        jogoVeia(numero)
 
 
     </script>

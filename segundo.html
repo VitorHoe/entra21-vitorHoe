@@ -9,22 +9,10 @@
 
 <body>
     <script>
-        let matriz = []
-        let mostrandoMatriz = ""
-        for (let i = 0; i < 5; i++) {
-            matriz[i] = []
-            for (let j = 0; j < 5; j++) {
-                matriz[j] = []
-                if (matriz[i] == matriz[j]) {
-                    matriz[i][j] = 1
-                } else {
-                    matriz[i][j] = 0
-                }
-                mostrandoMatriz += matriz[i][j] + "\t"
-            }
-            mostrandoMatriz += "\n"
+       let vetorTrue = ["1", 2, true]
+        for (let i = 0, item; item = vetorTrue[i++]; ) {
+            console.log(item)
         }
-        console.log(mostrandoMatriz)
     </script>
 </body>
 

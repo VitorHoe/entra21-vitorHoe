@@ -9,25 +9,21 @@
 
 <body>
     <script>
-        let numero = +prompt("digite um número")
+         let numeros = []
+        function modificarVetor(numeros) {
+            for (let i = 0; i < 5; i++) {
+                numeros[i] = +prompt("Digite um número")
+                for (let i = 0, tamanhoVetor = numeros.length; i < tamanhoVetor; i++) {
+                    console.log(numeros[i])
 
-        let hash = "#"
-
-
-        function jogoVeia(numero) {
-
-
-            for (let i = 0; i < numero; i++) {
-                let tag = hash
-                console.log(tag);
+                }
+                numeros[1] = 10
+                numeros[2] = 30
+                console.log(numeros[i])
             }
-
-
-
         }
-        jogoVeia(numero)
 
-
+        modificarVetor(numeros)
     </script>
 </body>
 

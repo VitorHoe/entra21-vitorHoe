@@ -100,4 +100,49 @@
         }
         firstLast(vetor)
 
-8) 
+8) let numero = +prompt("digite um número")
+
+        let hash = "#"
+
+
+        function jogoVeia(numero) {
+
+
+            for (let i = 0; i < numero; i++) {
+                let tag = hash
+                console.log(tag);
+            }
+
+
+
+        }
+        jogoVeia(numero)
+
+9)  let numero = +prompt("digite um número")
+
+        let ola = ["oi"]
+
+        function repetir(numero) {
+
+            for (let i = 0; i < numero; i++) {
+                for (let letra of ola) {
+                    let juncao = letra.split(",")
+                    console.log(juncao)
+                }
+            }
+        }
+        repetir(numero)
+
+10) let anoNascimento = +prompt("Digite o ano em que você nasceu")
+        let anoAtual = 2021
+
+        function anoNasceu(anoNascimento, anoAtual) {
+
+            let subtracao = anoAtual - anoNascimento
+            
+            console.log(`Você tem ${subtracao} anos`)
+
+        }
+        anoNasceu(anoNascimento, anoAtual)
+
+11) 

@@ -1,0 +1,43 @@
+git config --global user.name "nome" //salva o nome
+
+git config --global user.email "email" // salva o email
+
+git config --global --list // mostra o nome e email
+
+git clone // clona o arquivo
+
+git commit -a -m "Adiciona o arquivo index.html"
+
+git add . // adiciona o arquivo pra commit
+
+git reset (hash) 
+-- soft // reseta mas mantem arquivos
+-- hard // reseta e não mantem arquivos
+
+undo last commit // volta para o ultimo commit
+
+git status // da pra ver as branchs
+
+git push // enviar para o git o que foi feito
+
+git branch // mostra as branchs
+
+git branch nome/numero // criar branch
+
+git checkout -b <branch> // criar e entrar na branch
+
+git checkout // navegar entre branchs
+
+git branch -D <branch> // deletar uma branch
+
+git push origin <branch> // dar push em uma branch especifica
+
+git fetch // puxa as alterações sem fazer o merge
+
+git merge main
+
+git merge --no-ff bug/142
+
+
+
+

@@ -41,3 +41,20 @@ git merge --no-ff bug/142
 
 
 
+// 14
+    let vetor1 = [],
+        vetor2 = []
+
+    for (let i = 0; i < 5; i++) {
+        vetor1[i] = prompt(`Digite o valor da posição ${i + 1} do primeiro vetor`)
+    }
+
+    let iguais = true
+    for (let i = 0; i < 5; i++) {
+        vetor2[i] = prompt(`Digite o valor da posição ${i + 1} do segundo vetor`)
+
+        if (vetor1[i] != vetor2[i]) iguais = false
+    }            
+
+    console.log(`Vetor 1: ${vetor1}\nVetor 2: ${vetor2}`)
+    iguais ? console.log("Os vetores são iguais") : console.log("Os vetores são diferentes")

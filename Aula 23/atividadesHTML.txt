@@ -1,0 +1,40 @@
+1) <!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dweebeditor.css">
+    <title>Questão 01</title>
+</head>
+
+<body>
+
+    <h1>The famoso Café</h1>
+    <br>
+
+    <h2>Mistura of uma casa, R$ 89,99</h2>
+    <hr>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A Mistura delicada of coffes from China, Arábia and The Bermuda Triangle</p>
+    <br>
+
+    <h2>Coffe Russo com milk, R$ 1099,99</h2>
+    <hr>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Express, hot vodka and adidas chocolate</p>
+    <br>
+
+    <h2>Mussolino, R$ 3049,99</h2>
+    <hr>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A Mistura of expresso, polenta and dittadura</p>
+    <br>
+
+    <h2>Cháy Lung R$ 8099,99</h2>
+    <hr>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A bebida with chá black, tradição and milk</p>
+    <br>
+
+</body>
+
+</html>
+
+2)

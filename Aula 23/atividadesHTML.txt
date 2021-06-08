@@ -37,4 +37,95 @@
 
 </html>
 
-2)
+2) <!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dweebeditor.css">
+    <title>Questão 03</title>
+</head>
+
+<body>
+
+    <h1>Adidas, Nike, Coca cola</h1>
+    <br>
+
+    <p><em>polenta itálica</em></p>
+    <br>
+
+    <p><ins>cebolinha sublinhado</ins></p>
+    <br>
+
+    <p><big>Big mac</big> <small>Small mac</small></p>
+    <br>
+
+    <p>Fórmula para ter um genêro genérico x<sup>2</sup> e x<sub>2</sub></p>
+    <br>
+
+    <p>Exemplos de especiais de caracteres:<br> á é í ó ú ý</p>
+    <br>
+
+</body>
+
+</html>
+
+3) <!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dweebeditor.css">
+    <title>Questão 04</title>
+</head>
+
+<body>
+
+    <h1>Frases memoráveis:</h1>
+    <br>
+
+    <p class = primeiro>"Eu vou usar minha psicologia reserva." --VHS</p>
+    <br>
+
+    <p class = segundo>"Qual a barra que tem que carregar aqui,<br><span class = secondText> a do lado do stalin?"<br><br> -Loky é comunista?</span></p>
+    <br>
+
+    <p class = terceiro>"ia lá! o cara tem homofobia nos olhos."<br><span class = title>- Static Holmes</span></p>
+
+</body>
+
+</html>
+
+4) <!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dweebeditor.css">
+    <title>Questão 04</title>
+</head>
+
+<body>
+    <hr>
+    <h1>Give you up</h1>
+    <br>
+    <hr class = translinha>
+    
+    <img class = nevah><img src="rRkznp.gif" alt="hehe boy"></class>
+    <br>
+
+    <p>"Never gonna give you up!<br>Never gonna let you doooown!<br>Never gonna saaaayyy godbyeee!"</p>
+    <br>
+
+    <h2>Some dude</h2>
+    <br>
+
+    <hr>
+</body>
+
+</html>
+
+5)

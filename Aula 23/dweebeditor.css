@@ -1,16 +1,17 @@
 h1 {
-    font-weight: bold;
+    color: rgb(171, 206, 118);
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 100px;
+    color: rgb(171, 206, 118); 
+    transform: rotate(-7deg) translate(50px, -100px);
+    transform-origin: right;
+    text-shadow: 2px 2px greenyellow;
+    perspective: 100px;
+  perspective-origin: left;
+    font-family: fantasy;
 }
-
-
-p {
-    font-size: 30px;
-}
-
-hr {
-    border: white;
+body {
+    background-color: black;
 }

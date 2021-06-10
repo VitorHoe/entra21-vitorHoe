@@ -129,3 +129,14 @@
 </html>
 
 5)
+
+ <div class="esq">
+        <h1>Stellar</h1>
+    </div>
+    
+        <ul class="selector">
+            <li>Desktop</li>
+            <li>Tablet</li>
+            <li>Tablet(Portrait)</li>
+            <li>Mobile</li>
+        </ul>

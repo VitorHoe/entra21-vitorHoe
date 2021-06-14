@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="static/css/style.css">
     <script src="https://kit.fontawesome.com/2301278610.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f46eda335c.js" crossorigin="anonymous"></script>
+
     <title>Stellar</title>
 </head>
 
@@ -19,24 +21,27 @@
 
     <nav>
         <ul>
-            <li>Introduction</li>
-            <li>First Section</li>
-            <li>Second Section</li>
-            <li>Get Started</li>
+            <li><a href="#intro" class="active">Introduction</a></li>
+            <li><a href="#first" class="active">First Section</a></li>
+            <li><a href="#second" class="active">Second Section</a></li>
+            <li><a href="#third" class="active">Get Started</a></li>
         </ul>
+    </nav>
         <main>
-            <section>
+            <section id="intro">
                 <h1>Ipsum sed adipiscing</h1>
+                <hr>
                 <p>Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
                     <br>adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
                     <br>Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.</p>
 
-                <li><a href="" class="Button">Learn More</a></li>
+                <li><a href="../secondPage.html" class="Button">Learn More</a></li>
                 <img src="pic01.jpg" title="phone">
             </section>
-
-            <section>
+            <hr>
+            <section id="first">
                 <h1>Magna veroeros</h1>
+                <hr>
                 <ul class="Features"></ul>
                 <li><i class="fas fa-code"></i>
                     <h3>Ipsum consequat</h3>
@@ -60,13 +65,98 @@
                         nullam consequat a feugiat consequat<br>
                         tempus veroeros sed consequat.</p>
                 </li>
+            </ul>
+            <hr>
+        </section>
+        
+        <section id="second">
+            <h1>Ipsum consequat</h1>
+            <hr>
+            <h3>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br>
+                posuere. Nulla massa urna, fermentum eget quam aliquet.</h3>
 
+            <ul class="stuff">
+                <li> <i class="fa fa-solid fa-code-branch"></i>
+                    <h1>5,120</h1>
+                    <h2>Etiam</h2>
+                </li>
 
+                <li> <i class="fa fa-solid fa-folder-open"></i>
+                    <h1>8,192</h1>
+                    <h2>Magna</h2>
+                </li>
 
-                </ul>
+                <li> <i class="fa fa-solid fa-signal"></i></i>
+                    <h1>2,048</h1>
+                    <h2>Tempus</h2>
+                </li>
+
+                <li> <i class="fa fa-solid fa-laptop"></i></i>
+                    <h1>4,096</h1>
+                    <h2>Aliquam</h2>
+                </li>
+
+                <li> <i class="far fa-gem"></i>
+                    <h1>1,024</h1>
+                    <h2>Nullam</h2>
+                </li>
+            
+               
+            </ul>
+            <p>Nam elementum nisl et mi a commodo porttitor. Morbi sit amet<br>
+                nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi,<br>
+                elementum ac arcu sit amet, fermentum pellentesque et purus.<br>
+                Integer maximus varius lorem, sed convallis diam accumsan sed.<br>
+                Etiam porttitor placerat sapien, sed eleifend a enim pulvinar</p>
+
+            <p>faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur<br>
+                vestibulum. Integer eget purus nec nulla mattis et accumsan ut<br>
+                magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus<br>
+                et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam<br>
+                porta. Cras eu ornare dui curabitur lacinia.</p>
+
+                <a href="../secondPage.html" class="Button">Learn More</a>
+        </section>
+            <hr>
+            <section id="third">
+                <h1>Congue imperdiet</h1>
+                <hr>
+                <h2>Donec imperdiet consequat consequat. Suspendisse feugiat congue
+                    posuere. Nulla massa urna, fermentum eget quam aliquet.</h2>
+
+                    <a href="../secondPage.html" class="Button">Get Started</a>
+                    <a href="../secondPage.html" class="Button">Learn More</a>
+                
             </section>
+           
         </main>
-    </nav>
+   
+    <footer>
+        <h1>Aliquam sed mauris</h1>
+        <p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat<br>
+            consequat magna adipiscing tempus etiam dolore veroeros. eget<br>
+            dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat<br>
+            egestas velit, vitae tincidunt odio.</p>
+            <a href="../secondPage.html" class="Button">Learn More</a>
+
+        <h1>Etiam feugiat</h1>
+        
+        <dl class="adresses">
+        <dt>Address</dt> <dd>1234 Somewhere Road • Nashville, TN 00000 • USA</dd>
+        
+        <dt>Phone</dt> <dd>(000) 000-0000 x 0000</dd>
+
+        <dt>Email</dt> <dd><a href= "index.html">information@untitled.tld</a></dd>
+</dl>
+
+    <ul class="social media">
+        <li><a href= "../secondPage.html"><i class="fa fa-brands fa-twitter"></i></a></li>
+        <li><a href= "../secondPage.html"><i class="fa fa-brands fa-facebook-f"></i></a></li>
+        <li><a href= "../secondPage.html"><i class="fa fa-brands fa-instagram"></i></a></li>
+        <li><a href= "../secondPage.html"><i class="fa fa-brands fa-github"></i></a></li>
+        <li><a href= "../secondPage.html"><i class="fa fa-brands fa-dribbble"></i></a></li>
+    </ul>
+    </footer>
 </body>
 
 </html>

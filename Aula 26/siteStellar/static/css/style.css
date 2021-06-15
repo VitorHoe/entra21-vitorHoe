@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+body {
+    background: #de6161;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #2657eb, #935d8c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #2657eb, #935d8c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+header{
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-weight: normal;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1{
+    margin: 0px 0px 15.1667px;
+    font-size: 60.6667px;
+}
+
+nav {
+    background-color: #f7f7f7;
+}
+.Navigation {
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+}
+
+.Nav-bar{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.active {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color:black;
+    cursor: pointer;
+    
+}
+
+.active:hover {
+    background-color: lightgrey;
+}
+
+.active:active {
+    background-color: lightslategray;
+}
+
+.active:start {
+    background-color: lightslategray;
+}
+
+.MrWhite  {
+    color: white;
+}
+
+.social-media {
+    color: white;
+}
+
+.adresses {
+    color: white;
+}
+
+.Transparent-Link {
+    color: #FFFFFFA6;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  .Transparent {
+    color: #FFFFFFA6;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+ 
+  .Button {
+      color: white;
+      font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  .social-media {
+      color: white;
+  }
+
+  .Media-Icons {
+      color: white;
+  }

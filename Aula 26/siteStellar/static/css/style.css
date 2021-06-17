@@ -1,11 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
 
 body {
+    display: block;
+    margin: 8px;
+    -webkit-text-size-adjust: none;
     background: #de6161;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to left, #2657eb, #935d8c);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to left, #2657eb, #935d8c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+#wrapper {
+    width: 64em;
+    max-width: calc(100% - 4em);
+    margin: 0 auto;
+}
+html {
+    box-sizing: border-box;
+}
+
 
 header{
     text-align: center;
@@ -14,6 +26,7 @@ header{
 h1, h2, h3, h4, h5, h6, p {
     font-weight: normal;
     font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
 }
 
 h1{
@@ -21,21 +34,30 @@ h1{
     font-size: 60.6667px;
 }
 
-nav {
+#nav ul{
+    display: block;
+    background-color: #ffffff;
+    color: #636363;
+    position: absolute;
+    width: 64em;
+    max-width: calc(100% - 4em);
+    padding: 14px;
     background-color: #f7f7f7;
+    border-top-left-radius: 0.25em;
+    border-top-right-radius: 0.25em;
+    cursor: default;
+    text-align: center;
+
 }
-.Navigation {
-    list-style: none;
-    padding: 0px;
+#nav li{
+    color:#636363;
+    display: inline-block;
+    margin-left: 10px;
     text-align: center;
 }
 
-.Nav-bar{
-    display: inline-block;
-    margin-left: 10px;
-}
-
 .active {
+    text-align: center;
     text-decoration: none;
     display: block;
     padding: 10px;
@@ -43,6 +65,51 @@ nav {
     cursor: pointer;
     
 }
+
+#main {
+    border-top: 0;
+    padding: 5em 4em 3em 0em;
+}
+#intro {
+    border-top: 0;
+    background-color: white;
+    padding: 5em 5em 3em 5em;
+}
+
+#intro h2 {
+    font-size: 2em;
+    text-align: left;
+    overflow: hidden;
+  position: relative;
+}
+
+#intro p {
+    text-align: left;
+}
+
+#intro h2::after {
+    background-color: #dddddd;
+    background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+    background-image: -webkit-linear-gradient(
+90deg
+, #efa8b0, #a89cc8, #8cc9f0);
+    background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+    background-image: linear-gradient(
+90deg
+, #efa8b0, #a89cc8, #8cc9f0);
+    background-color: rgba(255, 255, 255, 0.35);
+    display: block;
+    content: '';
+    width: 3.25em;
+    height: 2px;
+    margin: 0.7em 0 1em 0;
+    border-radius: 2px;
+}
+
+#spok {
+    margin: 0px 0px 32px;
+}
+
 
 .active:hover {
     background-color: lightgrey;
@@ -91,3 +158,7 @@ nav {
   .Media-Icons {
       color: white;
   }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+}

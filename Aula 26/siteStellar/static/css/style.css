@@ -112,7 +112,7 @@ h1{
 
 
 .active:hover {
-    background-color: lightgrey;
+    background-color: black;
 }
 
 .active:active {
@@ -120,11 +120,11 @@ h1{
 }
 
 .active:start {
-    background-color: lightslategray;
+    background-color:  black;
 }
 
 .MrWhite  {
-    color: white;
+    color: black;
 }
 
 .social-media {

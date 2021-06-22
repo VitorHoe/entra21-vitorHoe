@@ -1,0 +1,64 @@
+html {
+    font-size: 11pt;
+}
+
+header {
+    background-color: rgba(73,8,1,255);
+}
+
+.head-gifs {
+    list-style: none;
+    display: inline;
+
+}
+
+.head-gifs ul {
+    float: left;
+}
+
+.head-gifs a {
+    display: block;
+    padding: 8px;
+}
+
+.button {
+    float: right;
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+}
+
+nav a {
+    color: black;
+    list-style-type: none;
+}
+.headbub {
+    max-width: 20%;
+}
+
+.bubble {
+    max-width: 20%;
+    margin-left: -200px;
+
+}
+   
+.column {
+  padding: 5px;
+  }
+  
+  .row {
+    display: flex;
+  }
+
+.light {
+    max-width: 50%;
+    transform: rotate(90deg)
+}
+.zenitsu {
+    width: 1000px;
+    max-width: 20%;
+    -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}

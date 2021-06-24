@@ -2,14 +2,20 @@
 html {
     font-size: 11pt;
 }
+body {
+    background-image: url(Images/pixel-art-sky-seamless-pattern-vector-6439520.jpg);
+    background-repeat: no-repeat;
+    background-size: 300%;
+}
 h1, h2, h3, h4, h5, h6, p {
     font-weight: normal;
     font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
 }
 header {
-    background-color: rgba(73,8,1,255);
-
+    background-image: url(Images/pixel-art-style-blue-sky-da-paisagem-nuvens-brancas-120712647.jpg);
+    background-position: 2px 200px;
+    border-style: dashed;
 }
 
 .japan {
@@ -59,12 +65,12 @@ nav a {
     width: 37px;
 }
 .headbub {
-    max-width: 40%;
+    max-width: 25%;
 }
 
 .bubble {
-    max-width: 50%;
-    margin-left: -100px;
+    max-width: 35%;
+    margin-left: -250px;
 
 }
    
@@ -88,11 +94,6 @@ nav a {
   transform: scaleX(-1);
 }
 
-#country img {
-    max-width: 50%;
-    border-style: dashed;
-}
-
 #country p {
     text-align: left;
 }
@@ -109,13 +110,84 @@ nav a {
     width: 37px;
 }
 
+.england img {
+    max-width: 50%;
+    border-style: dashed;
+    border-color: rgba(3,14,32,255);
+    background-color: rgba(13,90,177,255);
+    margin-top: 15px;
+}
+
 .england {
-    padding-top: 100px;
+    background-color: rgba(3,14,32,255);
 }
 
-.russia {
-    padding-top: 100px;
+.england p {
+    margin-left: 5px;
+    margin-top: 5px;
+    color: rgba(13,90,177,255);
+}
+.tanjiro {
+    width: 35%;
+    float: right;
+    margin-top: 50px;
+    transform: scaleX(-1);
 }
 
+.russia img {
+    padding-top: 100px;
+    max-width: 50%;
+    border-style: dashed;
+    border-color: lightslategray;
+}
+.japan{
+    background-color: rgba(73,8,1,255);
+    border-style: dashed;
+    border-color: rgba(253,200,0,255);
+}
+.japan img {
+    max-width: 50%;
+    border-style: dashed;
+    border-color: rgba(73,8,1,255);
+    background-color: rgba(253,200,0,255);
+}
 
+.japan p {
+    color: rgba(253,200,0,255);
+}
 
+.inuse{
+    width: 25%;
+    float: right;
+    margin-top: -31px;
+
+}
+
+.help {
+    width: 15%;
+    margin-top: -30px;
+    float: right;
+}
+
+.homez {
+    width: 30%;
+    float: left;
+    margin-top: -35px;
+    margin-left: -20px;
+}
+
+.home {
+    width: 15%;
+    margin-top: -25px;
+    margin-bottom: 10px;
+    margin-left: -20px;
+}
+
+.nezuko {
+    width: 20%;
+    border-style: none;
+    float: right;
+    margin-top: 50px;
+    margin-bottom: -10px;
+    margin-right: 10px;
+}

@@ -48,10 +48,15 @@ header {
 }
 
 nav a {
+    display: block;
+    list-style-type: none;
+    color: white;
+    float: left;
     border-style: solid;
     text-decoration: none;
-    color: white;
-    list-style-type: none;
+    margin: 0;
+    padding: inherit;
+    width: 37px;
 }
 .headbub {
     max-width: 40%;

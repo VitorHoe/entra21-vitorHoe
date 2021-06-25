@@ -95,7 +95,7 @@ nav a {
 }
 
 #country p {
-    text-align: left;
+    text-align: center;
 }
 
 #country a {
@@ -111,6 +111,7 @@ nav a {
 }
 
 .england img {
+    text-align: center;
     max-width: 50%;
     border-style: dashed;
     border-color: rgba(3,14,32,255);
@@ -119,7 +120,9 @@ nav a {
 }
 
 .england {
+    border-style: dashed;
     background-color: rgba(3,14,32,255);
+    border-color: rgba(13,90,177,255);
 }
 
 .england p {
@@ -130,20 +133,42 @@ nav a {
 .tanjiro {
     width: 35%;
     float: right;
-    margin-top: 50px;
+    margin-top: 10px;
     transform: scaleX(-1);
 }
 
+.russia {
+ border-style: dashed;
+ background-color: rgba(0,60,65,255);
+}
 .russia img {
-    padding-top: 100px;
     max-width: 50%;
     border-style: dashed;
-    border-color: lightslategray;
+    border-color: rgba(0,60,65,255);
+    background-color: rgba(65,109,106,255);
+    margin-top: 15px;
 }
+
+.russia p {
+    color: rgba(65,109,106,255);
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.inosuke {
+    margin-top: 30px;
+    width: 30%;
+    float: right;
+}
+
 .japan{
+    margin-left: 130px;
+    margin-right: 130px;
+    text-align: center;
     background-color: rgba(73,8,1,255);
     border-style: dashed;
     border-color: rgba(253,200,0,255);
+
 }
 .japan img {
     max-width: 50%;
@@ -153,19 +178,23 @@ nav a {
 }
 
 .japan p {
+    border-style: dashed;
+    margin-left: 5px;
+    margin-top: 5px;
     color: rgba(253,200,0,255);
 }
 
 .inuse{
-    width: 25%;
+    width: 75%;
     float: right;
-    margin-top: -31px;
+    margin-top: -60px;
 
 }
 
 .help {
     width: 15%;
-    margin-top: -30px;
+    margin-top: -35px;
+    margin-right: -25px;
     float: right;
 }
 
@@ -185,9 +214,26 @@ nav a {
 
 .nezuko {
     width: 20%;
-    border-style: none;
+}
+
+.tenorNezuko {
     float: right;
-    margin-top: 50px;
-    margin-bottom: -10px;
-    margin-right: 10px;
+    width: 20%;
+}
+
+.mexico img {
+    width: 50%;
+    border-style: dashed;
+    border-color: rgba(73,8,1,255);
+    background-color: rgba(253,200,0,255);
+    margin-top: 15px;
+}
+
+.mexico {
+    background-color: rgba(227,211,247,255);
+}
+
+.cTittle {
+    text-transform: uppercase;
+    text-shadow: 1px 1px;
 }

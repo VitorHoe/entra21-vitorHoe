@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 header {
     background-image: url(Images/pixel-art-style-blue-sky-da-paisagem-nuvens-brancas-120712647.jpg);
-    background-position: 2px 200px;
+    background-position: 2px 3200px;
     border-style: dashed;
 
 }
@@ -75,8 +75,8 @@ nav a {
 }
 
 .bubble {
-    max-width: 35%;
-    margin-left: -250px;
+    max-width: 60%;
+    margin-left: -450px;
 
 }
    
@@ -119,33 +119,34 @@ nav a {
 
 
 .inuse{
-    width: 75%;
+    width: 90%;
     float: right;
-    margin-top: 100px;
+    margin-top: 150px;
     margin-bottom: 300px;
 
 }
 
 .help {
-    width: 10%;
-    margin-top: 60px;
-    margin-right: -5px;
+    width: 100%;
+    margin-top: 50px;
+    margin-right: -600px;
+    margin-left: 50px;
     float: right;
 }
 
 .homez {
-    width: 18%;
+    width: 16%;
     float: left;
-    margin-top: 55px;
-    margin-left: 10px;
+    margin-top: 90px;
+    margin-left: -180px;
 
 }
 
 .home {
-    width: 100%;
-    margin-top: 1px;
-    margin-bottom: 100px;
-    margin-left: -1px;
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-left: -150px;
 }
 a {
     position: absolute;
@@ -169,92 +170,97 @@ a {
 
 .japan{
     margin-top: 10px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 500px;
+    margin-right: 500px;
     margin-bottom: 10px;
     text-align: center;
     background-color: rgba(73,8,1,255);
     border-style: dashed;
     border-color: rgba(253,200,0,255);
-    height: 300px;
+    height: 500px;
 
 }
 .japan img {
-    max-width: 90%;
+    max-width: 100%;
     border-style: dashed;
     border-color: rgba(73,8,1,255);
     background-color: rgba(253,200,0,255);
-    height: 170px;
+    height: 200px;
 }
 
 .japan p {
+    border-color: rgba(253,200,0,255);
     border-style: dashed;
-    margin-left: 5px;
-    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 100px;
     color: rgba(253,200,0,255);
 }
 
 .nezuko {
-    width: 20%;
-    margin-bottom: 40px;
-    margin-left: 290px;
-    margin-top: -100px;
-    height: 80px;
+    width: 10%;
+    margin-bottom: 50px;
+    margin-left: 800px;
+    margin-top: -240px;
+    height: 200px;
 
 }
 .japanB {
-    width: 25%;
-    margin-left: 500px;
-    margin-top: -150px;
-    margin-bottom: 90px;
-    margin-right: 350px;
+    width: 450%;
+    margin-left: 1100px;
+    margin-top: -290px;
+    margin-bottom: 200px;
+    margin-right: 250px;
 }
 
 /* England */
 
 .england img {
-    max-width: 90%;
+    max-width: 100%;
+    text-align: center;
     border-style: dashed;
     border-color: rgba(3,14,32,255);
     background-color: rgba(13,90,177,255);
     margin-top: 15px;
-    margin-right: 10px;
-    margin-left: 6px;
-    height: 150px;
+    margin-right: 40px;
+    margin-left: 60px;
+    height: 200px;
 }
 
 .england {
     margin-top: 10px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 500px;
+    margin-right: 500px;
     margin-bottom: 10px;
     border-style: dashed;
     background-color: rgba(3,14,32,255);
     border-color: rgba(13,90,177,255);
-    height: 300px;
+    height: 500px;
 }
 
 .england p {
-    margin-left: 5px;
-    margin-top: 5px;
+    border-style: dashed;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 100px;
     color: rgba(13,90,177,255);
 }
 .tanjiro {
-    width: 20%;
-    margin-top: 10px;
+    width: 15%;
+    margin-top: 20px;
     transform: scaleX(-1);
-    margin-left: 290px;
-    margin-bottom: 40px;
-    margin-top: -140px;
+    margin-left: 750px;
+    margin-bottom: 160px;
+    margin-top: -240px;
     
 }
 
 .englandB {
-    width: 10%;
-    margin-left: 500px;
-    margin-top: -140px;
+    width: 450%;
+    margin-left: 1080px;
+    margin-top: -410px;
     margin-bottom: 90px;
-    margin-right: -300px;
+    margin-right: 310px;
     position: absolute;
 }
 
@@ -262,51 +268,53 @@ a {
 
 .russia {
     margin-top: 10px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 500px;
+    margin-right: 500px;
     margin-bottom: 10px;
     border-style: dashed;
     background-color: rgba(0,60,65,255);
-    height: 300px;
+    height: 500px;
    }
    .russia img {
-       max-width: 90%;
+       max-width: 100%;
        border-style: dashed;
        border-color: rgba(0,60,65,255);
        background-color: rgba(65,109,106,255);
        margin-top: 15px;
-       margin-right: 10px;
-       margin-left: 6px;
+       margin-right: 40px;
+    margin-left: 90px;
        height: 150px;
    }
    
    .russia p {
        color: rgba(65,109,106,255);
-       margin-left: 5px;
-       margin-top: 5px;
+       border-style: dashed;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 100px;
    }
    
    .inosuke {
-       width: 20%;
-       margin-left: 290px;
-       margin-bottom: 40px;
-       margin-top: -140px;
+       width: 15%;
+       margin-left: 750px;
+       margin-bottom: 50px;
+       margin-top: -250px;
    }
    
    .russiaB {
-    width: 25%;
-    margin-left: 500px;
-    margin-top: -140px;
+    width: 450%;
+    margin-left: 1100px;
+    margin-top: -350px;
     margin-bottom: 200px;
-    margin-right: 350px;
+    margin-right: 550px;
 }
 /* Mexico */
 
 .tenorNezuko {
-    width: 20%;
-    margin-left: 290px;
+    width: 15%;
+    margin-left: 750px;
     margin-bottom: 40px;
-    margin-top: -140px;
+    margin-top: -240px;
     transform: scaleX(-1);
 }
 
@@ -317,16 +325,16 @@ a {
     border-color: rgba(227,211,247,255);
     margin-top: 15px;
        margin-right: 10px;
-       margin-left: 6px;
-       height: 150px;
+       margin-left: 20px;
+       height: 200px;
 }
 
 .mexico {
     margin-top: 10px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 500px;
+    margin-right: 500px;
     margin-bottom: 10px;
-    height: 300px;
+    height: 500px;
     border-style: dashed;
     background-color: rgba(227,211,247,255);
     border-color: rgba(238,165,169,255)
@@ -334,289 +342,32 @@ a {
 }
 
 .mexicoB {
-    width: 10%;
-    margin-left: 500px;
-    margin-top: -150px;
+    width: 450%;
+    margin-left: 1080px;
+    margin-top: -300px;
     margin-bottom: 90px;
     margin-right: 350px;
     position: absolute;
 }
-
-/* USA */
-
-.usa {
-    margin-top: 10px;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-bottom: 10px;
+.mexico p {
     border-style: dashed;
-    height: 300px;
-    border-color: rgba(255,189,247,255);
-    background-color: rgba(144,137,225,255);
-
-}
-
-.usa img {
-    width: 90%;
-    border-style: dashed;
-    margin-top: 15px;
+    margin-left: 10px;
     margin-right: 10px;
-    margin-left: 6px;
-    height: 150px;
-    background-color: rgba(255,189,247,255);
-    border-color: rgba(144,137,225,255);
-}
-
-.haru {
-    width: 19%;
-    margin-left: 300px;
-    margin-bottom: 60px;
-    margin-top: -132px;
-}
-
-.usaB {
-    width: 20%;
-    margin-left: 500px;
-    margin-top: -170px;
-    margin-bottom: 300px;
-    margin-right: 500px;
-}
-
-@media only screen and (min-width:1024px) {
-
-    .headbub {
-        max-width: 25%;
-    }
-    
-    .bubble {
-        max-width: 50%;
-        margin-left: -400px;
-    
-    }
- 
-    header {
-        background-image: url(Images/pixel-art-style-blue-sky-da-paisagem-nuvens-brancas-120712647.jpg);
-        background-position: 50px 250px;
-        border-style: dashed;
-    
-    }
-
-    .inuse{
-        width: 125%;
-        float: right;
-        margin-top: 80px;
-        margin-bottom: 300px;
-    
-    }
-
-    .help {
-        width: 10%;
-        margin-top: 9px;
-        margin-right: -5px;
-        float: right;
-    }
-
-    .homez {
-        width: 14%;
-        float: left;
-        margin-top: 20px;
-        margin-left: 10px;
-    
-    }
-
-    .home {
-        width: 90%;
-        margin-top: -55px;
-        margin-bottom: 100px;
-        margin-left: 10px;
-    }
-
-    /* Japan */
-
-.japan{
-    margin-top: 10px;
-    margin-left: 400px;
-    margin-right: 400px;
-    margin-bottom: 10px;
-    text-align: center;
-    background-color: rgba(73,8,1,255);
-    border-style: dashed;
-    border-color: rgba(253,200,0,255);
-    height: 300px;
-
-}
-.japan img {
-    max-width: 50%;
-    border-style: dashed;
-    border-color: rgba(73,8,1,255);
-    background-color: rgba(253,200,0,255);
-    height: 170px;
-}
-
-.japan p {
-    border-style: dashed;
-    margin-left: 5px;
-    margin-top: 5px;
-    color: rgba(253,200,0,255);
-}
-
-.nezuko {
-    width: 10%;
-    margin-bottom: 40px;
-    margin-left: 650px;
-    margin-top: -100px;
-    height: 80px;
-
-}
-.japanB {
-    width: 15%;
-    margin-left: 1000px;
-    margin-top: -150px;
-    margin-bottom: 90px;
-    margin-right: 350px;
-}
-
-/* England */
-
-.england img {
-    max-width: 50%;
-    border-style: dashed;
-    border-color: rgba(3,14,32,255);
-    background-color: rgba(13,90,177,255);
-    height: 170px;
-}
-
-.england {
-    margin-top: 10px;
-    margin-left: 400px;
-    margin-right: 400px;
-    margin-bottom: 10px;
-    text-align: center;
-    border-style: dashed;
-    background-color: rgba(3,14,32,255);
-    border-color: rgba(13,90,177,255);
-    height: 300px;
-}
-
-.england p {
-    margin-left: 5px;
-    margin-top: 5px;
-    color: rgba(13,90,177,255);
-}
-.tanjiro {
-    width: 8%;
-    margin-top: 10px;
-    transform: scaleX(-1);
-    margin-left: 650px;
-    margin-bottom: 25px;
-    margin-top: -140px;
-    
-}
-
-.englandB {
-    width: 8%;
-    margin-left: 980px;
-    margin-top: -140px;
-    margin-bottom: 90px;
-    margin-right: -100px;
-    position: absolute;
-}
-
-/* Russia */
-
-.russia {
-    margin-top: 10px;
-    margin-left: 400px;
-    margin-right: 400px;
-    margin-bottom: 10px;
-    text-align: center;
-    border-style: dashed;
-    background-color: rgba(0,60,65,255);
-    height: 170;
-   }
-   .russia img {
-       max-width: 50%;
-       border-style: dashed;
-       border-color: rgba(0,60,65,255);
-       background-color: rgba(65,109,106,255);
-       margin-top: 15px;
-       margin-right: 10px;
-       margin-left: 6px;
-       height: 150px;
-   }
-   
-   .russia p {
-       color: rgba(65,109,106,255);
-       margin-left: 5px;
-       margin-top: 5px;
-   }
-   
-   .inosuke {
-       width: 8%;
-       margin-left: 690px;
-       margin-bottom: 40px;
-       margin-top: -140px;
-   }
-   
-   .russiaB {
-    width: 15%;
-    margin-left: 1030px;
-    margin-top: -160px;
-    margin-bottom: 200px;
-    margin-right: 450px;
-}
-/* Mexico */
-
-.tenorNezuko {
-    width: 8%;
-    margin-left: 690px;
-    margin-bottom: 30px;
-    margin-top: -160px;
-    transform: scaleX(-1);
-}
-
-.mexico img {
-    width: 50%;
-    border-style: dashed;
-    background-color: rgba(238,165,169,255);
-    border-color: rgba(227,211,247,255);
-    margin-top: 15px;
-       margin-right: 10px;
-       margin-left: 6px;
-       height: 170px;
-}
-
-.mexico {
-    margin-top: 10px;
-    margin-left: 400px;
-    margin-right: 400px;
-    margin-bottom: 10px;
-    height: 300px;
-    text-align: center;
-    border-style: dashed;
-    background-color: rgba(227,211,247,255);
+    margin-top: 100px;
+    color: rgba(238,165,169,255);
     border-color: rgba(238,165,169,255);
 }
 
-.mexicoB {
-    width: 8%;
-    margin-left: 1000px;
-    margin-top: -140px;
-    margin-bottom: 80px;
-    margin-right: 350px;
-    position: absolute;
-}
 
 /* USA */
 
 .usa {
-    text-align: center;
     margin-top: 10px;
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 500px;
+    margin-right: 500px;
     margin-bottom: 10px;
     border-style: dashed;
-    height: 360px;
+    height: 500px;
     border-color: rgba(255,189,247,255);
     background-color: rgba(144,137,225,255);
 
@@ -626,25 +377,35 @@ a {
     width: 90%;
     border-style: dashed;
     margin-top: 15px;
-    margin-right: 10px;
-    margin-left: 6px;
-    height: 160px;
+    margin-right: 50px;
+    margin-left: 23px;
+    height: 200px;
     background-color: rgba(255,189,247,255);
     border-color: rgba(144,137,225,255);
 }
 
 .haru {
-    width: 9%;
-    margin-left: 730px;
-    margin-bottom: 30px;
-    margin-top: -170px;
+    width: 15%;
+    margin-left: 750px;
+    margin-bottom: 60px;
+    margin-top: -250px;
 }
 
 .usaB {
-    width: 10%;
+    width: 400%;
     margin-left: 1090px;
-    margin-top: -170px;
+    margin-top: -340px;
     margin-bottom: 300px;
-    margin-right: 500px;
+    margin-right: 400px;
 }
+
+.usa p {
+    border-style: dashed;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 100px;
+    color: rgba(255,189,247,255);
+    border-color: rgba(255,189,247,255);
 }
+
+

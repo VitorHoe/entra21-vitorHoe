@@ -119,32 +119,35 @@ nav a {
 
 
 .inuse{
-    width: 90%;
+    width: 75%;
     float: right;
-    margin-top: 150px;
+    margin-top: 160px;
     margin-bottom: 300px;
 
 }
 
 .help {
-    width: 100%;
-    margin-top: 50px;
-    margin-right: -600px;
+    width: 60%;
+    margin-top: 20px;
+    margin-right: -950px;
     margin-left: 50px;
     float: right;
 }
 
+img{
+    text-align: center;
+}
 .homez {
-    width: 16%;
+    width: 12%;
     float: left;
-    margin-top: 90px;
+    margin-top: 50px;
     margin-left: -180px;
 
 }
 
 .home {
-    width: 80%;
-    margin-top: 50px;
+    width: 50%;
+    margin-top: 10px;
     margin-bottom: 30px;
     margin-left: -150px;
 }
@@ -198,16 +201,18 @@ a {
 }
 
 .nezuko {
+    text-align: center;
     width: 10%;
     margin-bottom: 50px;
-    margin-left: 800px;
+    margin-left: 1030px;
     margin-top: -240px;
     height: 200px;
 
 }
 .japanB {
+    text-align: center;
     width: 450%;
-    margin-left: 1100px;
+    margin-left: 1350px;
     margin-top: -290px;
     margin-bottom: 200px;
     margin-right: 250px;
@@ -228,6 +233,7 @@ a {
 }
 
 .england {
+    text-align: center;
     margin-top: 10px;
     margin-left: 500px;
     margin-right: 500px;
@@ -246,19 +252,21 @@ a {
     color: rgba(13,90,177,255);
 }
 .tanjiro {
-    width: 15%;
+    text-align: center;
+    width: 13%;
     margin-top: 20px;
     transform: scaleX(-1);
-    margin-left: 750px;
-    margin-bottom: 160px;
-    margin-top: -240px;
+    margin-left: 1000px;
+    margin-bottom: 40px;
+    margin-top: -300px;
     
 }
 
 .englandB {
+    text-align: center;
     width: 450%;
-    margin-left: 1080px;
-    margin-top: -410px;
+    margin-left: 1280px;
+    margin-top: -300px;
     margin-bottom: 90px;
     margin-right: 310px;
     position: absolute;
@@ -274,6 +282,7 @@ a {
     border-style: dashed;
     background-color: rgba(0,60,65,255);
     height: 500px;
+    text-align: center;
    }
    .russia img {
        max-width: 100%;
@@ -283,7 +292,7 @@ a {
        margin-top: 15px;
        margin-right: 40px;
     margin-left: 90px;
-       height: 150px;
+       height: 200px;
    }
    
    .russia p {
@@ -295,24 +304,27 @@ a {
    }
    
    .inosuke {
-       width: 15%;
-       margin-left: 750px;
-       margin-bottom: 50px;
-       margin-top: -250px;
+    text-align: center;
+       width: 13%;
+       margin-left: 1100px;
+       margin-bottom: 100px;
+       margin-top: -260px;
    }
    
    .russiaB {
+    text-align: center;
     width: 450%;
-    margin-left: 1100px;
+    margin-left: 1350px;
     margin-top: -350px;
-    margin-bottom: 200px;
+    margin-bottom: 300px;
     margin-right: 550px;
 }
 /* Mexico */
 
 .tenorNezuko {
-    width: 15%;
-    margin-left: 750px;
+    text-align: center;
+    width: 12%;
+    margin-left: 950px;
     margin-bottom: 40px;
     margin-top: -240px;
     transform: scaleX(-1);
@@ -324,8 +336,8 @@ a {
     background-color: rgba(238,165,169,255);
     border-color: rgba(227,211,247,255);
     margin-top: 15px;
-       margin-right: 10px;
-       margin-left: 20px;
+       margin-right: 20px;
+       margin-left: 45px;
        height: 200px;
 }
 
@@ -342,8 +354,9 @@ a {
 }
 
 .mexicoB {
+    text-align: center;
     width: 450%;
-    margin-left: 1080px;
+    margin-left: 1200px;
     margin-top: -300px;
     margin-bottom: 90px;
     margin-right: 350px;
@@ -385,15 +398,17 @@ a {
 }
 
 .haru {
-    width: 15%;
-    margin-left: 750px;
+    text-align: center;
+    width: 12%;
+    margin-left: 1000px;
     margin-bottom: 60px;
     margin-top: -250px;
 }
 
 .usaB {
+    text-align: center;
     width: 400%;
-    margin-left: 1090px;
+    margin-left: 1300px;
     margin-top: -340px;
     margin-bottom: 300px;
     margin-right: 400px;

@@ -91,3 +91,11 @@ if (vetor[i] >= 0) {
 
 }
 console.log(negativo)
+
+
+exec2 /* 1: let elemento = document.getElementById("age-table")
+            2: let elementos = document.querySelectorAll("td > label")
+            3: let elemento = document.querySelector("td")
+            4: let elemento = document.querySelector("form")
+            5: let ent = document.querySelector("label > input:first-child")
+            6: let ent = document.querySelector("form > input:last-child")/*

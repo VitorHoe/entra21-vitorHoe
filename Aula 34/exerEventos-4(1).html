@@ -1,0 +1,19 @@
+<body>
+    <input type="button" id="esconder" value="Click para esconder/mostrar o texto" />            
+    <div id="text">Texto</div>
+<script>
+    let esconder = document.querySelector("#esconder")
+    let texto = document.querySelector("#text")
+ 
+    function handlerClick() {
+            if (texto.style.display === "none") {
+                texto.style.display = "block";
+            } else {
+                texto.style.display = "none"
+            }
+
+        }
+
+    esconder.addEventListener("click", handlerClick)
+</script>
+</body>

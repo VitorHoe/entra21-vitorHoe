@@ -18,7 +18,81 @@
     <div id="div-legenda">Adicione uma legenda nesse elemento</div>
     
     
-    <script> function mostraLegenda(elemento, posicao, texto)
+    <script>
+        // Obter coordenadas
+        div = document.querySelector("#div-legenda")
+
+        console.log(div.getBoundingClientRect())
+
+        function criarMensagemAbaixo(elemento, html) {
+
+           let posicao = prompt("Digite a posição da legenda")
+           let mensagem = document.createElement("div")
+           let coords = obterCoordenadas(elemento)
+           
+
+           switch (posicao) {
+
+            case 'abaixo':
+            
+            mensagem.style.cssText = "position: absolute; color: red;"
+            
+            mensagem.style.top = coords.bottom + "px"
+
+            mensagem.innerHTML = html
+
+            return mensagem
+            break
+
+            case 'acima':
+            
+            mensagem.style.cssText = "position: absolute; color: red;"
+            mensagem.style.top = coords.top / 2 + "px"
+
+            mensagem.innerHTML = html
+
+            return mensagem
+            break
+
+            case 'esquerda':
+
+            mensagem.style.cssText = "position: absolute; color: red;"
+            mensagem.style.left = coords.left / 2 + "px"
+
+            mensagem.innerHTML = html
+
+            return mensagem
+            break
+
+
+            case 'direita':
+
+            mensagem.style.cssText = "position: absolute; color: red;"
+            mensagem.style.left = coords.right + "px"
+
+            mensagem.innerHTML = html
+
+            return mensagem
+            break
+
+        }
+        
+    }  
+
+        // Obtendo as coordenadas do elemento (levando em consideração o Scroll da tela)
+        function obterCoordenadas(elemento) {
+            let coords = elemento.getBoundingClientRect()
+
+            return {
+                top: coords.top + window.pageYOffset,
+                right: coords.right + window.pageXOffset,
+                bottom: coords.bottom + window.pageYOffset,
+                left: coords.left + window.pageXOffset
+            }
+        }
+        
+        let mensagem = criarMensagemAbaixo(div, "pão")
+        document.body.append(mensagem)
 
     
     

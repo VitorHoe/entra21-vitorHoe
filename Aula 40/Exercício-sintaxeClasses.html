@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //EXERCÍCIO 1:
+        /* class Aluno {
+            constructor(nome, primeiraNota, segundaNota, notaTrab) {
+            this.nome = nome;
+            this.primeiraNota = primeiraNota;
+            this.segundaNota = segundaNota;
+            this.notaProv = notaTrab;
+            }
+            
+            calculoMedia() {
+                return ((this.primeiraNota*3) + (this.segundaNota*3) + (this.notaTrab*2)) / 8
+            }
+
+            calculoFinal(){
+                const media = this.calculoMedia()
+
+                media >= 6 ? console.log(`Aprovado com média ${media.toFixed(2)}`) : console.log(`Reprovado com média ${media.toFixed(2)}`)
+            }
+        }
+        const aluno1 = new Aluno("Sr.Pão", 9, 8, 9) */
+
+
+        //EXERCÍCIO 2 :
+       /* class Agenda {
+            constructor(nome, telefone, classe) {
+                this.nome = nome;
+                this.telefone = telefone;
+                this.classe = classe;
+            }
+
+            armazenaPessoa(nome, telefone){
+                this.nome = nome;
+                this.telefone = telefone;
+            }
+
+            buscaPessoa(nome) {
+                this.telefone = telefone;
+            }
+
+            imprimeAgenda() {
+                Agenda
+            }
+
+            imprimePessoa(indice) {
+
+            }
+        }
+
+        let usuario1 = new Agenda ("Clebinho", 40028922, "Humilde")
+
+        let usuario2 = new Agenda ("Judas", 87243670, "Traidor")
+
+        let usuario3 = new Agenda ("Norris", 36326000, "Sobrevivente") */ 
+
+
+        //EXERCÍCIO 3:
+
+        class Voar {
+            #numeroVoo
+            constructor(numeroVoo, data) {
+                this.numeroVoo = numeroVoo;
+                this.data = data;
+            }
+        }
+
+        let voo1 = new Voar(001, "24/02")
+
+    </script>
+</body>
+</html>

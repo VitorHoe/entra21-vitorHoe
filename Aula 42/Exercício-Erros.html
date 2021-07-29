@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erros</title>
+</head>
+<body>
+    <script>
+        class OddNumberError extends Error {
+            constructor(message) {
+                super(message)
+                this.name = "OddNumberError"
+            }
+        }
+        function somar(valor1, valor2) {
+            let soma = valor1 + valor2
+            if (soma % 2 === 1) {
+                throw new OddNumberError("O número é ímpar")
+            } else {
+                console.log(soma)
+            }
+        }
+
+        try {
+            somar(valor1, valor2)
+        } catch (error) {
+            if (error instanceof OddNumberError) {
+                alert(`Error name: ${error.name}\nError message: ${error.message}`)
+            } else {
+                console.log(error)
+            }
+        }
+        somar(2, 2)
+    </script>
+</body>
+</html>

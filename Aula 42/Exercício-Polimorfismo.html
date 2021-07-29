@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polimorfismo</title>
+</head>
+<body>
+    <script>
+        class Produto {
+            constructor(nomeLoja, preco, descricao) {
+            this.nomeLoja = nomeLoja
+            this.preco = preco
+            }
+
+            getDescricao() {
+            console.log("Produto de informática")
+        }
+        }
+
+        class Mouse extends Produto{
+            constructor(nomeLoja, preco, descricao, tipo) {
+            super(nomeLoja, preco)
+            this.tipo = tipo
+            }
+
+            getDescricao() {
+            console.log("Kabum", 50, "Mouse ótico, Saída USB. 1.600 dpi", "Gamer")
+        }
+        }
+
+        class Livro extends Produto {
+            constructor(nomeLoja, preco, descricao, autor,) {
+            super(nomeLoja, preco)
+            this.autor = autor
+            }
+            getDescricao() {
+            return "A volta de quem não foi"
+        }
+        }
+
+        let rato = new Mouse ("Xablau", 899, "pão")
+        let book = new Livro ("Panelini", 999, "Clebinho")
+        let camundongo = new Mouse ("Xablau", 12, "mostarda")
+        let ebook = new Livro ("Panelini", 9, "Chuck Norris")
+    </script>
+</body>
+</html>

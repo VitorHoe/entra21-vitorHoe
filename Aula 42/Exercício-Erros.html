@@ -7,7 +7,8 @@
 </head>
 <body>
     <script>
-        class OddNumberError extends Error {
+        //EXERCÍCIO 1:
+      /* class OddNumberError extends Error {
             constructor(message) {
                 super(message)
                 this.name = "OddNumberError"
@@ -21,7 +22,7 @@
                 console.log(soma)
             }
         }
-
+        somar(2, 3)
         try {
             somar(valor1, valor2)
         } catch (error) {
@@ -30,8 +31,37 @@
             } else {
                 console.log(error)
             }
+        } */
+
+
+        //EXERCÍCIO 2:
+       /* let numero = prompt("Digite um número") 
+       function dobrar(numero) {
+            let dobra = numero * 2
+
+            if (!isNaN(numero)) {
+                console.log(dobra)   
+            } else {
+                throw new TypeError("O valor deve ser numérico")
+            }
         }
-        somar(2, 2)
+
+        
+        try {
+            dobrar(numero)
+        } catch (error) {
+           if (error instanceof TypeError) {
+               alert(error.message)
+           } else {
+               console.log(error)
+           }
+        } */ 
+
+
+        //EXERCÍCIO 3:
+        function validarUsuario(nome, email, salario) {}
+
+        
     </script>
 </body>
 </html>

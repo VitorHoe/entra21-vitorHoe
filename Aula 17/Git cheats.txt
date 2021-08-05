@@ -44,7 +44,7 @@ npm init // cria um package.json
 
 npm cowsay // vaquinha
 
-
+node (nome do arquivo) // executar o arquilo (tem q estar selecionado)
 https://nodejs.dev/learn/semantic-versioning-using-npm
 
 npx // rodar os comandos das bibliotecas

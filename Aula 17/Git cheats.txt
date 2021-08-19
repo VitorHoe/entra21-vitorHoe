@@ -49,3 +49,20 @@ https://nodejs.dev/learn/semantic-versioning-using-npm
 
 npx // rodar os comandos das bibliotecas
 npm // abrir e baixar bibliotecas
+
+
+
+
+SELECT
+m.nome,
+sum(p.valor) total_valor
+FROM
+marcas m
+INNER JOIN
+produtos p
+ON
+p.id_marca = m.id
+WHERE p.nome = 'Apple'
+GROUP BY m.nome
+HAVING sum(p.valor) > 3000
+ORDER BY m.nome;

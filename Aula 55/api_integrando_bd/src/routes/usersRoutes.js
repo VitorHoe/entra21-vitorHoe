@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const multer = require("multer");
-const multerConfig = require("../controllers/usersControllers");
+const multerConfig = require("../config/multer");
 
 // Importando o controller
 const usersControllers = require("../controllers/usersControllers");

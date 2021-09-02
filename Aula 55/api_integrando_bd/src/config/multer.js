@@ -2,7 +2,7 @@ const multer = require("multer");
 const path = require("path");
 const { randomBytes } = require("crypto");
 
-module.exports = {
+module.exports = {         
     fileFilter: (req, file, cb) => {
         const allowedMimes = [
             "image/jpeg",
@@ -29,5 +29,5 @@ module.exports = {
                 cb(null, fileName);
             });
         }
-    })
+    })    
 };
